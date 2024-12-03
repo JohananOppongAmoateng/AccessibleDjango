@@ -65,24 +65,10 @@ python manage.py check_accessibility
 
 ### Running Checks  
 
-AccessibleDjango evaluates templates and views for common accessibility pitfalls, including:  
-- Missing or empty `alt` attributes in `<img>` tags.  
-- Poor color contrast.  
-- Missing or incorrect ARIA attributes.  
-- Improper heading structure.  
-- Missing labels for form inputs.  
+```bash
+python manage.py check --deploy
+```
 
-Run the command to generate a report:  
-```bash  
-python manage.py check_accessibility --output=report.json  
-```  
-
-### 📊 Output Files  
-
-- **`accessibility_report.json`**: A structured JSON report detailing the accessibility issues found.  
-- **`error_summary.log`**: A simplified log highlighting critical issues and warnings.  
-
----
 
 ## 🚧 Limitations  
 
@@ -101,7 +87,7 @@ We are actively working to expand AccessibleDjango to include additional accessi
 3. **Real-Time Accessibility Validation**: A live testing mode to validate accessibility as you develop.  
 4. **Comprehensive Accessibility Checks**: Full support for various accessibility issues, such as ARIA roles, color contrast, form validation, and more.  
 
-For more details, see `ROADMAP.md`.  
+For more details, see `FUTURE.md`.  
 
 ---
 
@@ -120,8 +106,11 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## 🙏 Acknowledgments  
 
 Built with ❤️ by the Accessible Django Team. Special thanks to all contributors and the accessibility community for their support.  
+<<<<<<< Updated upstream
 
 ---
 
 AccessibleDjango: Ensuring web applications are inclusive for everyone. 💡  
 ``` 
+=======
+>>>>>>> Stashed changes
