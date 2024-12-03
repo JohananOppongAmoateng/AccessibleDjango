@@ -106,11 +106,8 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## 🙏 Acknowledgments  
 
 Built with ❤️ by the Accessible Django Team. Special thanks to all contributors and the accessibility community for their support.  
-<<<<<<< Updated upstream
 
 ---
 
 AccessibleDjango: Ensuring web applications are inclusive for everyone. 💡  
-``` 
-=======
->>>>>>> Stashed changes
+
