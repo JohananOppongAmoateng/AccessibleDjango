@@ -4,7 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Version](https://img.shields.io/badge/version-0.0.1-green.svg)](https://github.com/Area-25/webrover/releases)
 
-AccessibleDjango is a Django package focused on checking your web applications for accessibility compliance. It ensures your app adheres to accessibility standards, making your web interfaces usable for everyone, including individuals with disabilities. AccessibleDjango currently checks for missing or empty `alt` attributes in `<img>` tags, with plans for further accessibility features in future releases.
+AccessibleDjango is a Django package focused on checking your web applications for accessibility compliance. It ensures your app adheres to accessibility standards, making your web interfaces usable for everyone. AccessibleDjango currently checks for missing or empty `alt` attributes in `<img>` tags, with plans for further accessibility features in future releases.
 
 ---
 
