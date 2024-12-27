@@ -3,6 +3,7 @@
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Version](https://img.shields.io/badge/version-0.0.1-green.svg)](https://github.com/Area-25/webrover/releases)
+[![Published on Django Packages](https://img.shields.io/badge/Published%20on-Django%20Packages-0c3c26)](https://djangopackages.org/packages/p/accessible-django/)
 
 AccessibleDjango is a Django package focused on checking your web applications for accessibility compliance. It ensures your app adheres to accessibility standards, making your web interfaces usable for everyone. AccessibleDjango currently checks for missing or empty `alt` attributes in `<img>` tags, with plans for further accessibility features in future releases.
 
@@ -77,6 +78,7 @@ python manage.py check --deploy
 - Manual testing may be required for third-party components.  
 
 ---
+
 
 ## 🗺️ Roadmap  
 
