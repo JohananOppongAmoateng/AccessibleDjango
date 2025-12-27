@@ -43,14 +43,36 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://github.com/JohananOppongAmoateng/AccessibleDjango"
-Documentation = "https://github.com/JohananOppongAmoateng/AccessibleDjango#readme"
+Documentation = "https://accessibledjango.readthedocs.io/"
 Repository = "https://github.com/JohananOppongAmoateng/AccessibleDjango"
 Issues = "https://github.com/JohananOppongAmoateng/AccessibleDjango/issues"
 Changelog = "https://github.com/JohananOppongAmoateng/AccessibleDjango/blob/main/CHANGELOG.md"
 
+[project.optional-dependencies]
+# For pip compatibility (Read the Docs, etc.)
+dev = [
+    "ruff>=0.8.0",
+    "mypy>=1.0.0",
+    "coverage[toml]>=7.0",
+]
+
+docs = [
+    "sphinx>=7.0",
+    "sphinx-rtd-theme>=2.0",
+    "myst-parser>=2.0",
+    "sphinx-autodoc-typehints>=1.24.0",
+    "beautifulsoup4>=4.12.0",
+]
+
+test = [
+    "pytest>=8.0",
+    "pytest-django>=4.8",
+]
+
 
 # ------------------------------------------------------------
 # Dependency groups (uv / PEP 735 style)
+# For uv users - same as optional-dependencies above
 # ------------------------------------------------------------
 
 [dependency-groups]
@@ -65,6 +87,7 @@ docs = [
     "sphinx-rtd-theme>=2.0",
     "myst-parser>=2.0",
     "sphinx-autodoc-typehints>=1.24.0",
+    "beautifulsoup4>=4.12.0",
 ]
 
 test = [

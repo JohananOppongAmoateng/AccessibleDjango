@@ -1,3 +1,4 @@
+import os
 from django.conf import settings
 from django.template.utils import get_app_template_dirs
 
